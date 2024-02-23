@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Backend_teszt",
+    "dateExported": "2024-02-23T12:12:47.471Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "346f4cb5-4ca6-4118-9b29-98a01b8a4e49",
+            "colId": "57fc8e5e-5dac-4ded-a54c-d561e96a2f0f",
+            "containerId": "",
+            "name": "GET_index",
+            "url": "localhost:8000/api/orders/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-23T12:09:54.225Z",
+            "modified": "2024-02-23T12:10:03.019Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "362b9d0e-9da3-4f94-9ac4-8051e9dd5858",
+            "colId": "57fc8e5e-5dac-4ded-a54c-d561e96a2f0f",
+            "containerId": "",
+            "name": "GET_show",
+            "url": "localhost:8000/api/orders/5",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-02-23T12:10:11.535Z",
+            "modified": "2024-02-23T12:12:40.772Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1fa5195b-76a9-499a-acd7-82900e151401",
+            "colId": "57fc8e5e-5dac-4ded-a54c-d561e96a2f0f",
+            "containerId": "",
+            "name": "POST",
+            "url": "localhost:8000/api/orders/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-23T12:10:05.496Z",
+            "modified": "2024-02-23T12:10:43.300Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n\"category\": 3,\n\"customer_name\": \"John Doe\",\n\"deadline\": \"2022-03-22\",\n\"quantity\": 10,\n\"publisher_name\": \"Jane Doe\"\n\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2c0b5d1b-0bc3-4441-bb5d-2becadc76f9b",
+            "colId": "57fc8e5e-5dac-4ded-a54c-d561e96a2f0f",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "localhost:8000/api/orders/2",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-02-23T12:10:07.303Z",
+            "modified": "2024-02-23T12:11:06.304Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ba426ee1-ee9c-4c7d-87db-9a1ac9a32ba2",
+            "colId": "57fc8e5e-5dac-4ded-a54c-d561e96a2f0f",
+            "containerId": "",
+            "name": "PUT",
+            "url": "localhost:8000/api/orders/5",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-23T12:10:10.207Z",
+            "modified": "2024-02-23T12:11:37.702Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n\"quantity\": 30\r\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
